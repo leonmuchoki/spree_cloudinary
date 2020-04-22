@@ -5,7 +5,7 @@ require 'spree_cloudinary/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'spree_cloudinary'
-  spec.version       = '~> 4.1'#SpreeCloudinary::VERSION
+  spec.version       = '>= 3.1.0', '<= 4.1'#SpreeCloudinary::VERSION
   spec.authors       = ['Thach Chau']
   spec.email         = ['rog.kane@gmail.com']
   spec.description   = %q{Spree extension to use carrierwave/cloudinary instead of paperclip.}
